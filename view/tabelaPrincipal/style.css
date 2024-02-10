@@ -1,0 +1,24 @@
+/* body{
+    background-color: black;
+} */
+
+table{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none; 
+    font-size: 30px;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 15%;
+}
+
+a:hover{
+    color:rgb(13, 12, 72);
+    transition: 0.5s;
+}
