@@ -7,7 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS'){
     header("HTTP:/1.1 200 OK");
     exit;
 }
-use Firebase\JWT\TokenJWT;
 use Bramus\Router\Router;
 
 require_once "./modelo/Router.php";
