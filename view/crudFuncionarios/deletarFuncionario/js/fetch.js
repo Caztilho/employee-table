@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return
         }
     
-        // Fazer uma requisição POST para a API
+        // Fazer uma requisição DELETE para a API
         fetch(endpoint,  {
             method: 'DELETE',
             headers: {
