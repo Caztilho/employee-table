@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             salario: salario
         }
     
-        // Fazer uma requisição POST para a API
+        // Fazer uma requisição PUT para a API
         fetch(endpoint,  {
             method: 'PUT',
             headers: {
